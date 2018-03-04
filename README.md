@@ -1,11 +1,11 @@
 # Designing iOS architecture.
-## The checklist
+## ☑️ The checklist
 
 List of questions one should ask while designing an architecture.
 
 The article explaining the motivation is [here](https://medium.com/@borlov/e984e4ebba4a).
 
-#### Is it scalable?
+#### 📈Is it scalable?
 - [ ] Does it handle changing business requirements efficiently?
 - [ ] Does it support gradual adoption in existing projects?
 - [ ] Does it allow replacing third-party components easily?
@@ -16,7 +16,7 @@ The article explaining the motivation is [here](https://medium.com/@borlov/e984e
 - [ ] Does it limit the use of event/notification systems to specific layers?
 - [ ] Does it provide a strategy for cutting corners and tech debt?
     
-#### Is it maintainable?
+#### 🚧Is it maintainable?
 - [ ] Does it provide a tactic for fighting massive objects?
 - [ ] Does it limit the number of dependencies for an object?
 - [ ] Does it try to reduce the amount of boilerplate code?
@@ -24,7 +24,7 @@ The article explaining the motivation is [here](https://medium.com/@borlov/e984e
 - [ ] Does it suggest project structure tolerant to changes?
 - [ ] Does it feel right?
     
-#### Is it prepared for navigation?
+#### 🔱Is it prepared for navigation?
 - [ ] Does it explain how to pass data between components?
 - [ ] Does it allow describing and discovering app flow naturally?
 - [ ] Does it avoid transient dependencies?
@@ -33,10 +33,18 @@ The article explaining the motivation is [here](https://medium.com/@borlov/e984e
 - [ ] Does it allow opening a stack of screens?
 - [ ] Does it handle opening of a screen from a push notification?
     
-#### Is it promoting quality?
+#### 🌟Is it promoting quality?
 - [ ] Does it maximize the amount of testable code?
 - [ ] Does it encourages compile-time decisions over runtime decisions?
 - [ ] Does it avoid force casting and unwrapping?
 - [ ] Does it allow stubbing asynchronous code to run tests synchronously?
 - [ ] Does it support testing of UI?
 - [ ] Does it forgive mistakes?
+
+## 🤝 How to contribute
+
+Is something is missing? Feel free to make a pull request!
+
+## 📃 License
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
