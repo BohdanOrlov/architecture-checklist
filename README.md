@@ -43,7 +43,7 @@ The article explaining the motivation is [here](https://medium.com/@borlov/e984e
 
 ## 🤝 How to contribute
 
-Is something is missing? Feel free to make a pull request!
+ Feel free to make a pull request if something is missing!
 
 ## 📃 License
 
