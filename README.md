@@ -1,5 +1,4 @@
-# Designing iOS architecture.
-## ☑️ The checklist
+# ☑️ Designing iOS architecture: Checklist
 
 List of questions one should ask while designing an architecture.
 
